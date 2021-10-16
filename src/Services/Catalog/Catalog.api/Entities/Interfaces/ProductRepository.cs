@@ -9,9 +9,9 @@ namespace Catalog.api.Entities.Interfaces
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly ICatalogConext _context;
+        private readonly ICatalogContext _context;
 
-        public ProductRepository(ICatalogConext context)
+        public ProductRepository(ICatalogContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }

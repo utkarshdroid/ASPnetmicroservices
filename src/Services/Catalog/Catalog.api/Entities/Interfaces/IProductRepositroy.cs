@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Catalog.api.Entities.Interfaces
 {
-    public interface IProductRepositroy
+    public interface IProductRepository
     {
         Task<IEnumerable<Product>> GetProducts();
         Task<Product> GetProduct(string id);

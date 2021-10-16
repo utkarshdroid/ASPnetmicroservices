@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Catalog.api.Data
 {
-    public class CatalogContext: ICatalogConext
+    public class CatalogContext: ICatalogContext
     {
         public IMongoCollection<Product> Products { get; }
         public CatalogContext(IConfiguration configuration)

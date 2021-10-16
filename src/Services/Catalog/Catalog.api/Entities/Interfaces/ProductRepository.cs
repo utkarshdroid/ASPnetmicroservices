@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Catalog.api.Entities.Interfaces
 {
-    public class ProductRepository : IProductRepositroy
+    public class ProductRepository : IProductRepository
     {
         private readonly ICatalogConext _context;
 
